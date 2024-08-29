@@ -1,0 +1,77 @@
+.heading h6 {
+    font-weight: bold;
+    font-size: 2.5rem; 
+    color: #2c3e50;    
+    border-bottom: 2px solid #3498db; 
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white; 
+    z-index: 1000; 
+    padding: 10px 0; 
+}
+
+.fixed-header .container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 20px; 
+}
+
+.fixed-header .header {
+    flex: 1; 
+    text-align: center;
+}
+
+.fixed-header .header h2 {
+    font-size: 1.5rem; 
+    font-weight: bold;
+    color: #2c3e50;
+    margin: 0;
+}
+
+
+.fixed-header .logo img {
+    max-width: 80px; 
+}
+ 
+
+body {
+    padding-top: 120px; 
+}
+
+.invalid-feedback {
+    color: #e74c3c; 
+    font-size: 0.875rem; 
+    display: block; 
+
+}
+.form-control-address{
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    transition: all 0.3s ease;
+    height: 100px; 
+    width: 50%; 
+}
+.form-control, .form-check-input, .form-check-label, .form-check {
+    max-width: 100%;
+}
+.form-section {
+    margin-bottom: 1.5rem;
+}
+.heading {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.form-control-address {
+    width: 100%;
+}
+.document-control {
+    width: 100%;
+}
